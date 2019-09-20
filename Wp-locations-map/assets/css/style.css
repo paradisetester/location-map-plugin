@@ -1,0 +1,208 @@
+form .inputs_outr input::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #cccccc !important; 
+} 
+ 
+form .inputs_outr input:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color:#ccc !important; 
+} 
+  
+form .inputs_outr input::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #ccc !important; 
+} 
+
+.address_filed_form p {color: #275f15;
+    font-weight: bold;
+    background: #d6f5d5b0;
+}
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+  cursor:pointer;
+}
+.wploc_notification {
+  display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    padding: 30px;
+    border: 1px solid orange;
+    background-color: white;
+    z-index: 1002;
+   
+}
+.inputs_outr {
+    display: flex;
+}
+#light input {
+    width: 100%;
+    margin-bottom: 15px;
+	color: #000000 !important;
+	background-color: #efefef;
+}
+#light input::placeholder {
+	color: #ababab  !important;
+}
+input#postal_code {
+    display: inline-block;
+    width: 150px;
+    margin-left: 15px;
+}
+#light h3 {
+    margin: 0 0 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#light button#searchbtn_popup {
+    width: 100%;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    border: none;
+}
+#light button#searchbtn_popup:hover,
+#light button#searchbtn_popup:focus {
+    opacity: 0.5;
+}
+#light a.popup_loc_cls {
+    font-family: cursive;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+p.wploc_error_msg {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+}
+.wploc_notification .error{
+	color:#d21a0c
+}
+.wploc_notification .success{
+	color:#226325
+}
+
+.pac-container.pac-logo {   
+    position: relative;
+    z-index: 9999;
+}
+
+.button.button-loading {
+    width: 100%;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    border: none;
+}
+.inputs_outr input {
+    margin-right: 10px;
+}
+p.header-msg {
+    font-weight: 600;
+}
+p.wploc_error_msg {
+    
+    font-weight: 600;
+}
+
+/*23JULY*/
+.popup_overlay {
+    overflow: hidden;
+    position: fixed;
+}
+#light a.popup_loc_cls {
+    right: -13px;
+    top: -16px;
+    z-index: 999;
+    color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    background-color: #000;
+}
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+.wploc_notification {
+    top:50%;
+}
+/*29 july*/
+.inputs_outr input {
+    background-color: #fff;
+   
+}
+#location-box button#searchbtn_popup {
+    background-color: #e66700;
+    padding: 0px;
+}
+#location-box  input {  
+    color: #000 !important;
+}
+.elementor-element.elementor-element-cbec8b1.elementor-widget.elementor-widget-text-editor {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:767px) {
+  .wploc_notification {
+    width: 94%;
+  }
+	#light h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+#light a.popup_loc_cls {
+    right: -5px;
+    top: -11px;
+   
+}
+}
+
+@media screen and (max-width:540px) {
+.inputs_outr {
+    display: block;
+}
+
+input#postal_code {
+    width: 100%;
+    margin-left: 0;
+}
+}
