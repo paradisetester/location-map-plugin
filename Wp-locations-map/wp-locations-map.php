@@ -28,7 +28,7 @@
 	$apigoogle = get_option( 'apigoogle' );
 	
 	if($apigoogle==''){
-		$apigoogle = 'AIzaSyDK7higg65_KsNxgiPtTOhviY4O64D336U';
+		$apigoogle = '';
 	}
 	
 	
